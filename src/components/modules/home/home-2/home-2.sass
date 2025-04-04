@@ -1,0 +1,22 @@
+.home-2
+	.home-2-list
+		@apply mt-base
+		.home-2-item
+			@apply bg-[#2A438B] rounded-3xl rem:px-[34px] rem:pt-[52px] rem:pb-[41px] flex flex-col cursor-pointer
+			&:hover
+				@apply bg-Primary-Primary_02 shadow-Dropshadow-Light transition-all ease-in-out
+				.icon
+					a
+						img
+							@apply brightness-0  transition-all ease-linear
+			.icon
+				@apply mb-base w-18 h-18 flex-shrink-0
+			.content
+				@apply flex flex-col flex-1 text-Neutral-White
+				.top
+					h3
+						@apply text-2xl font-bold mb-3
+				.bottom
+					@apply mt-auto
+					.desc
+						@apply font-normal

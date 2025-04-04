@@ -1,1 +1,42 @@
-footer 
+footer.footer(class="pt-15 bg-bg-footer") 
+	.container 
+		.footer-top(class="flex items-center justify-between pb-10 border-b-2 border-b-Primary-Primary_02") 
+			.footer-text(class="rem:w-[167px]") 
+				h3(class="text-2xl font-bold text-Neutral-White") Stay updated for promotion
+			form.footer-mail(action="" class="rem:w-[619px]") 
+				.footer-input 
+					input(type="text" placeholder="Enter your email")
+					.footer-btn 
+						+ButtonPrimary()
+				.footer-notify(class="text-right text-sm font-normal text-Neutral-White mt-2 opacity-50") 
+					p *I consent to receiving promotional email's form Blueness
+			.footer-app(class="flex items-center gap-6") 
+				.footer-google-play(class="rem:w-[202px] rem:h-[54px]") 
+					a(href="#" class="w-full h-full")
+						img(src="./img/google-play.png", alt="" class="w-full h-full object-cover") 
+				.footer-appstore(class="rem:w-[202px] rem:h-[54px]")  
+					a(href="#" class="w-full h-full")
+						img(src="./img/appstore.png", alt="" class="w-full h-full object-cover") 
+		.footer-bottom(class="section-40 flex justify-between") 
+			.col-left(class="rem:w-[442px]")
+				.footer-logo(class="rem:w-[442px] rem:h-[101px] mb-2") 
+					a(href="#" class="w-full h-full")
+						img(src="./img/logo-footer.svg", alt="" class="w-full h-full object-cover") 
+				.footer-copyright(class="text-sm font-normal text-Neutral-White opacity-80 mt-2") 
+					p © 2025 BLUENESS. All Rights Reserved. Website designed by CanhCam.
+			.col-right
+				.footer-column 
+					h3(class="text-xl font-bold text-white mb-4") Contact Information
+					ul.footer-menu 
+						li 
+							a(href="#") 
+								i.fa-solid.fa-location-dot
+								span 47 Fairfax Road, Swiss Cottage, London
+						li 
+							a(href="#") 
+								i.fa-solid.fa-location-dot
+								span 47 Fairfax Road, Swiss Cottage, London
+						li 
+							a(href="#") 
+								i.fa-solid.fa-location-dot
+								span 47 Fairfax Road, Swiss Cottage, London

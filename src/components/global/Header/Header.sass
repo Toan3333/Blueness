@@ -1,15 +1,33 @@
 .header
-	@apply  py-4 bg-Neutral-White sticky left-0 right-0 z-100 top-0
+	background: rgba(0, 0, 0, 0.30)
+	backdrop-filter: blur(4px)
+	@apply  py-4 fixed left-0 right-0 z-100 top-0 rem:h-[126px]
+	.header-top-menu
+		ul.menu-list 
+			@apply flex items-center gap-6
+			li
+				@apply pr-6 border-r border-r-Neutral-White pb-1 inline-block last:border-none
+				a
+					@apply text-lg font-normal text-Neutral-White   border-b border-transparent
+					&:hover
+						@apply border-b border-b-Neutral-White
+				&[class*='current']
+					&>a
+						@apply border-b border-b-Neutral-White
+	.header-bottom
+		@apply mt-3
+		ul.header-menu
+			@apply flex items-center justify-between rem:gap-[66px] rem:h-[52px]
 	.header-nav
 		@apply flex justify-center items-center xl:gap-11 lg:gap-5
 		li
 			a
-				@apply text-lg font-semibold text-Neutral-900 pb-1 border-b border-transparent 
-				
-			
+				@apply text-lg font-medium  pb-1 border-b border-transparent text-Neutral-White
+				&:hover
+					@apply border-b border-b-Neutral-White
 			&[class*='current']
 				&>a
-					@apply text-red-300
+					@apply border-b border-b-Neutral-White
 	.header-bar
 		@apply w-12 h-12 flex-shrink-0 inline-flex items-center justify-center text-Neutral-White bg-red-400 backdrop-blur-sm text-2xl
 	.search-bar-container

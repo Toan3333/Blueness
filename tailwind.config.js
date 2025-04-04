@@ -212,6 +212,7 @@ module.exports = {
 		extend: {
 			colors: {
 				transparent: "transparent",
+				"bg-footer": "#2A375D",
 				Primary: {
 					Primary_01: "#1d2744",
 					Primary_02: "#cab36a",
@@ -260,6 +261,9 @@ module.exports = {
 				"linear-2": `linear-gradient(180deg, #D7D7D7 -0.93%, #F3F3F3 15.85%, #FFF 37.21%, #EAEAEA 100.93%)`,
 				"linear-3": `linear-gradient(236deg, #85363D 13.61%, #FFECEC 50.12%, #76222A 85.9%)`,
 				"linear-4": `linear-gradient(90deg, #471116 0%, rgba(173, 41, 54, 0.00) 100%)`,
+				"linear-banner": `linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%)`,
+				"linear-35": `linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%)`,
+				"bg-service": `linear-gradient(0deg, rgba(43, 62, 117, 0.00) 0%, rgba(43, 62, 117, 0.40) 15%, rgba(43, 62, 117, 0.80) 38.24%, rgba(43, 62, 117, 0.00) 100%)`,
 			}),
 			backgroundPosition: {
 				"pos-100-0": "100% 0%",
@@ -284,12 +288,10 @@ module.exports = {
 				25: "calc(100/1920*100rem) /* 100px */",
 			},
 			boxShadow: {
-				boxShadow: {
-					"Dropshadow Light": "4px 4px 32px 16px rgba(0,0,0,0.08)",
-					"Dropshadow Medium": "4px 4px 8px 4px rgba(0,0,0,0.24)",
-					"Dropshadow Hard": "8px 8px 16px 8px rgba(0,0,0,0.4)",
-					"Background Blur": "",
-				},
+				"Dropshadow-Light": "4px 4px 32px 16px rgba(0,0,0,0.08)",
+				"Dropshadow Medium": "4px 4px 8px 4px rgba(0,0,0,0.24)",
+				"Dropshadow Hard": "8px 8px 16px 8px rgba(0,0,0,0.4)",
+				"Background Blur": "",
 			},
 			lineClamp: {
 				6: "6",
